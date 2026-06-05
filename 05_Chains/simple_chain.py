@@ -7,7 +7,7 @@ load_dotenv()
 
 model = ChatGoogleGenerativeAI(model="gemini-2.5-flash")
 
-prompt = PromptTemplate(template="generate 3 facts about a topic {topic}",
+prompt = PromptTemplate(template="generate 3 facts about {topic}",
                         input_variables=["topic"])
 
 parser = StrOutputParser()
