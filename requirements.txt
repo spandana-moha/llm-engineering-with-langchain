@@ -7,5 +7,6 @@ langchain-text-splitters
 langchain-chroma
 langchain-huggingface
 sentence-transformers
+chromadb
 pypdf
 bs4
