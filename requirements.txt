@@ -9,5 +9,6 @@ langchain-huggingface
 sentence-transformers
 chromadb
 faiss-cpu
+wikipedia
 pypdf
 bs4
